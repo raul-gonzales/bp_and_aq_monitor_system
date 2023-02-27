@@ -1,2 +1,2 @@
 # ECE4600
-Arduino codes for the pipe burst detection and air quality monitoring systems project.
+Github repository for Group 12's Capstone Project, (2022 Capstone).
