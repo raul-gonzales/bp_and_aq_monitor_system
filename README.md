@@ -50,9 +50,9 @@ This project introduces a smart home monitoring system focused on detecting wate
 
 Below is the database schema used for the systems.
 
-![Database schema for the air quality monitoring system.](images/system-air-monitor.png)
+![Database schema for the air quality monitoring system.](images/system-air-monitor.PNG)
 
-![Database schema for the burst pipe monitoring system.](images/system-water-monitor.png)
+![Database schema for the burst pipe monitoring system.](images/system-water-monitor.PNG)
 
 ### System Integration
 - **Microcontroller Connectivity:** Integrate ESP32 microcontrollers with Firebase for data transmission.
@@ -62,6 +62,6 @@ Below is the database schema used for the systems.
 
 Both the air quality and burst pipe monitoring systems share a similar architecture, differing primarily in the types of sensor data they read and send, pre-warning timers implemented, and the devices they control, such as the filter fan or water supply line. Below is a flowchart for the Air quality monitoring system.
 
-![Flowchart for the air quality monitoring system.](images/air-quality-flowchart.png)
+![Flowchart for the air quality monitoring system.](images/air-quality-flowchart.PNG)
 
 This backend database implementation using Firebase offers a robust solution for storing and processing sensor data, integrated with ESP32 microcontrollers, temperature sensors, and air quality sensors.
