@@ -49,6 +49,7 @@ This project introduces a smart home monitoring system focused on detecting wate
 - **Data Security:** Ensure data security and user privacy with Firebase's built-in security features.
 
 Below is the database schema used for the systems.
+
 ![Database schema for the air quality monitoring system.](images/system-air-monitor.png)
 
 ![Database schema for the burst pipe monitoring system.](images/system-water-monitor.png)
@@ -60,6 +61,7 @@ Below is the database schema used for the systems.
 - **Mobile Application Integration:** Connect the mobile app frontend to Firebase for real-time monitoring and control.
 
 Both the air quality and burst pipe monitoring systems share a similar architecture, differing primarily in the types of sensor data they read and send, pre-warning timers implemented, and the devices they control, such as the filter fan or water supply line. Below is a flowchart for the Air quality monitoring system.
+
 ![Flowchart for the air quality monitoring system.](images/air-quality-flowchart.png)
 
 This backend database implementation using Firebase offers a robust solution for storing and processing sensor data, integrated with ESP32 microcontrollers, temperature sensors, and air quality sensors.
