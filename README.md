@@ -1,7 +1,7 @@
 # IoT Burst Pipe Detection and Air Quality Monitoring System
 
 ## Overview
-This repository hosts the Arduino codebase for an IoT-based home monitoring system designed to detect water leaks and ensure optimal indoor air quality. Controlled via a mobile application, the system provides real-time monitoring capabilities. The codebase is primarily written in C++, and it utilizes version 1.8.19 of the Arduino platform.
+This repository hosts the Arduino codebase for an IoT-based home monitoring system designed to detect water leaks and ensure optimal indoor air quality. Controlled via a mobile application, the system provides real-time monitoring capabilities. The codebase is primarily written in C++, and it utilizes version 1.8.19 of the Arduino platform. While the mobile application frontend is not publicly released and is only available to the developer, the backend infrastructure and microcontroller connections were successfully set up.
 
 ## Table of Contents
 - [IoT Burst Pipe Detection and Air Quality Monitoring System](#iot-burst-pipe-detection-and-air-quality-monitoring-system)
