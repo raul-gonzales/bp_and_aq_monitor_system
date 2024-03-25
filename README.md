@@ -1,12 +1,13 @@
 # IoT Burst Pipe Detection and Air Quality Monitoring System
 
 ## Overview
-This project introduces a smart home monitoring system focused on detecting water leaks and maintaining indoor air quality. It's controlled via a mobile application and offers real-time monitoring capabilities.
+This repository hosts the Arduino codebase for an IoT-based home monitoring system designed to detect water leaks and ensure optimal indoor air quality. Controlled via a mobile application, the system provides real-time monitoring capabilities. The codebase is primarily written in C++, and it utilizes version 1.8.19 of the Arduino platform.
 
 ## Table of Contents
 - [IoT Burst Pipe Detection and Air Quality Monitoring System](#iot-burst-pipe-detection-and-air-quality-monitoring-system)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
+  - [Libraries Used](#libraries-used)
   - [Key Features](#key-features)
   - [Requirements](#requirements)
     - [Data:](#data)
@@ -16,6 +17,12 @@ This project introduces a smart home monitoring system focused on detecting wate
     - [Firebase Integration](#firebase-integration)
     - [System Integration](#system-integration)
 
+## Libraries Used
+- **Firebase Arduino Library:** Utilized for integrating Firebase Realtime Database with the Arduino platform for data storage and retrieval.
+- **ESP32 Board Library:** Facilitates communication between the ESP32 microcontroller and other components of the system.
+- **Sensor Libraries:** Specific sensor libraries (e.g., for temperature and air quality sensors) are employed for data collection and processing.
+- **Firebase Authentication Library:** Enables secure user authentication functionality through Firebase Authentication services.
+- **Firebase Cloud Functions SDK:** Integrated for real-time data processing and automation triggers via Firebase Cloud Functions.
 
 ## Key Features
 - **Real-time Monitoring:** Keep track of water supply and air quality in real-time.
